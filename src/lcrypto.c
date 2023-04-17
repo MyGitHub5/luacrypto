@@ -1750,7 +1750,7 @@ static int luacrypto_openssl_version_number(lua_State *L)
 
 static int luacrypto_openssl_shlib_version(lua_State *L)
 {
-    lua_pushstring(L, SHLIB_VERSION_NUMBER);
+    lua_pushstring(L, SSLEAY_VERSION_NUMBER);
     return 1;
 }
 
